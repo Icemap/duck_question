@@ -59,7 +59,7 @@ def all_one_side() -> bool:
     :return: bool 是否都在同边
     """
     point_array = get_four_point()
-    vector = get_four_point()
+    vector = get_vector()
 
     # show_pic(point_array, vector)
 
